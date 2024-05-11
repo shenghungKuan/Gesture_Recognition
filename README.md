@@ -36,6 +36,9 @@ pip3 install cjm_pandas_utils cjm_psl_utils cjm_pil_utils cjm_pytorch_utils cjm_
 
 ```
 HuggingFace Dataset:	cj-mills/hagrid-sample-30k-384p
+```
+Default stored directory, take windows version for example:
+```
 Archive Path:	E:\Datasets\..\Archive\hagrid-sample-30k-384p.zip
 Dataset Path:	E:\Datasets\hagrid-sample-30k-384p
 ```
