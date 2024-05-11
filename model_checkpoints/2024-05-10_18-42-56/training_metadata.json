@@ -1,0 +1,1 @@
+{"epoch": 8, "train_loss": 5.1901550187004935, "valid_loss": 4.551431941986084, "learning_rate": 4.097097862600556e-05, "model_architecture": "yolox_tiny"}
