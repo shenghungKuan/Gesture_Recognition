@@ -32,6 +32,16 @@ Install utility packages
 pip3 install cjm_pandas_utils cjm_psl_utils cjm_pil_utils cjm_pytorch_utils cjm_yolox_pytorch cjm_torchvision_tfms
 ```
 
+## Data resource
+
+```
+HuggingFace Dataset:	cj-mills/hagrid-sample-30k-384p
+Archive Path:	E:\Datasets\..\Archive\hagrid-sample-30k-384p.zip
+Dataset Path:	E:\Datasets\hagrid-sample-30k-384p
+```
+
+url:https://huggingface.co/datasets/cj-mills/hagrid-sample-30k-384p/resolve/main/hagrid-sample-30k-384p.zip
+
 ## Different workplace
 
 - **gesture_recognition.ipynb** should be execute on Mac (Marcus)
