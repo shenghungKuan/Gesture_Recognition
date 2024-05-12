@@ -1,5 +1,26 @@
 # Gesture_Recognition
 
+## Project Overview
+
+The aim of this project is to enable users to upload raw images, which our model will then analyze to recognize and label the type of gesture depicted.
+
+- Gesture support in our model:
+
+![alt text](image-2.png)
+
+- Network:
+
+  **YoloX**
+
+  (Please refer to the citation and references below.)
+
+- Workflow:
+  1. Download the dataset and its annotation labels.
+  2. Visualize the annotations to ensure they have the correct bounding boxes.
+  3. Train our model using YoloX.
+  4. Evaluate the model's performance.
+  5. Test the model by uploading our own pictures.
+
 ## Environment Set Up
 
 Install PyTorch with CUDA
@@ -36,6 +57,11 @@ pip3 install cjm_pandas_utils cjm_psl_utils cjm_pil_utils cjm_pytorch_utils cjm_
 
 ```
 HuggingFace Dataset:	cj-mills/hagrid-sample-30k-384p
+```
+
+Default stored directory, take windows version for example:
+
+```
 Archive Path:	E:\Datasets\..\Archive\hagrid-sample-30k-384p.zip
 Dataset Path:	E:\Datasets\hagrid-sample-30k-384p
 ```
